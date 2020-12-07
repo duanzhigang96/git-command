@@ -1,7 +1,7 @@
 Git Command
 --- 
 
-###新建代码库
+### 新建代码库
 
 ```bash
 #在当前目录新建一个Git代码库
@@ -14,7 +14,7 @@ $ git init [project-name]
 $ git clone [url]
 ```
 
-###配置
+### 配置
 ```bash
 # 显示当前的Git配置
 $ git config --list
@@ -47,7 +47,7 @@ $ git rm -r --cached [file]
 - [] 通用匹配单个字符列表
 
 
-###增加/删除文件
+### 增加/删除文件
 ```bash
 # 添加指定文件到暂存区
 $ git add [file1] [file2] ...
@@ -92,4 +92,4 @@ $ git rm --cached [file]
 $ git mv [file-original] [file-renamed]
 ```
 
-###代码提交
+### 代码提交
