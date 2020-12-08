@@ -33,7 +33,7 @@ $ touch .gitignore
 $ git rm -r --cached [file]
 
 ```
-##### 忽略文件一览:[ https://gitee.com/jaywcjlove/oscnews/releases](https://gitee.com/jaywcjlove/oscnews/releases)
+##### 忽略文件一览:[https://github.com/github/gitignore](https://github.com/github/gitignore)
 
 ##### Git 忽略规则匹配语法
 在 .gitignore 文件中，每一行的忽略规则的语法如下：
