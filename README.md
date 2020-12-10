@@ -90,6 +90,12 @@ $ git rm --cached [file]
 
 # 改名文件，并且将这个改名放入暂存区
 $ git mv [file-original] [file-renamed]
+
+# 删除工作区所有新规目录和文件
+$ git clean -d -f 删除未跟踪的目录和文件
+
+# 将工作区中未提交的file回滚到之前的commit状态
+$ git reset --hard HEAD
 ```
 
 ### 代码提交
